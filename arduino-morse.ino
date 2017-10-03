@@ -13,7 +13,7 @@ int kuhaku = ton * 4; //kyuhu+kuhaku = 単語間空白（k,７）
 int ledPin = 13;
 
 //表示したい文字列設定（A~Z, 空白）
-String tar = "HOGE HOGE";
+String tar = "HOGE HOGE";//大文字のみ　小文字はだめ
 
 void setup() {
   pinMode(ledPin, OUTPUT);//13番ピン
